@@ -1,65 +1,77 @@
-body
-{
-    margin:0;
-    padding:0;
-    font-family:sans-serif ;
-}
-#navbar
-{
-    padding:8px;
-}
-#logo
-{
-    height:30px;
-}
-h1
-{
-text-align: CENTER;COLOR:  rgb(54, 44, 167);
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
 }
 
-#about
-{
-    display:flex;
+#navbar {
+    padding: 8px;
 }
-a{
+
+#logo {
+    height: 30px;
+}
+
+h1 {
+    text-align: CENTER;
+    COLOR: rgb(54, 44, 167);
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 50px 0;
+}
+
+a {
     text-decoration: none;
 }
-#description
-{
-    width:50%;
+
+#description {
+    width: 50%;
 }
-#BANNER
-{
-    WIDTH:100%;
+
+#BANNER {
+    WIDTH: 100%;
     object-fit: cover;
-
+    display: flex;
+    margin-bottom: 50px;
 }
-#footer
-{
+
+#jobs {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#footer {
     background-color: rgb(167, 188, 249);
-    padding:8px;
-    margin-top:32px;
+    padding: 8px;
+    margin-top: 32px;
     text-align: center;
 }
-#footer-links
-{
-    list-style:none;
+
+#footer-links {
+    list-style: none;
     text-align: center;
 
 }
+
 #footer-links li {
     display: inline;
-    margin:0 16px;
+    margin: 0 16px;
 }
-.copyright{
-  color: rgb(148, 10, 148);
+
+.copyright {
+    color: rgb(148, 10, 148);
 }
+
 .LOCATION {
 
     COLOR: rgb(96, 66, 213);
     margin-bottom: 16px;
 }
-.apply
-{
-    FLOAT:RIGHT;
+
+.apply {
+    FLOAT: RIGHT;
 }
